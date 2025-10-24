@@ -2,6 +2,7 @@ defmodule AppWeb.PageController do
   use AppWeb, :controller
 
   def home(conn, _params) do
-    render(conn, :home)
+    conn
+    |> render_inertia("Home")
   end
 end
