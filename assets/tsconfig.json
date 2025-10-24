@@ -20,7 +20,8 @@
     "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./js/*"]
+      "@/*": ["./js/*"],
+      "@images/*": ["./images/*"]
     }
   },
   "include": ["js/**/*.ts", "js/**/*.tsx", "js/**/*.js", "js/**/*.jsx"],
