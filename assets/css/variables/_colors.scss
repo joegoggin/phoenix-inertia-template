@@ -1,0 +1,83 @@
+// Primary Colors
+$cadmium-red-100: #ec071e;
+$cadmium-red-80: #f46a78;
+$cadmium-red-60: #fbcdd2;
+
+$tangerine-100: #f4850d;
+$tangerine-80: #fac286;
+$tangerine-60: #fde7cf;
+
+$blueberry-100: #4b98ff;
+$blueberry-80: #93c1ff;
+$blueberry-60: #dbeaff;
+
+$dark-pastel-purple-100: #9c6cd3;
+$dark-pastel-purple-80: #c4a7e5;
+$dark-pastel-purple-60: #e1d3f2;
+
+$ufo-green-100: #1fd669;
+$ufo-green-80: #79e6a5;
+$ufo-green-60: #bcf3d2;
+
+// Light Mode
+$bright-gray-100: #ebebeb;
+$light-silver-100: #d9d9d9;
+
+// Dark Mode
+$chinese-black-100: #111111;
+$chinese-black-80: #414141;
+$chinese-black-60: #707070;
+
+$raisin-black-100: #252525;
+$jet-100: #363636;
+
+// Accent
+$azure-100: #3395ff;
+$azure-80: #99caff;
+$azure-60: #cce4ff;
+
+$iguana-green-100: #78b977;
+$iguana-green-80: #aed5ad;
+$iguana-green-60: #d7ead6;
+
+$imperial-red-100: #ed1e40;
+$imperial-red-80: #f4788c;
+$imperial-red-60: #fabcc6;
+
+$sunglow-100: #fc3;
+$sunglow-80: #ffe085;
+$sunglow-60: #fff0c2;
+
+$spanish-gray-100: #959595;
+$spanish-gray-80: #c2c2c2;
+
+// Gradients
+$gradients-tangerine: radial-gradient(
+    50% 50% at 50% 50%,
+    #ff9e34 0%,
+    #f4850d 100%
+);
+
+$gradients-cadmium-red: radial-gradient(
+    50% 50% at 50% 50%,
+    #ff5768 0%,
+    #ec071e 100%
+);
+
+$gradients-blueberry: radial-gradient(
+    50% 50% at 50% 50%,
+    #a2caff 0%,
+    #4b98ff 100%
+);
+
+$gradients-dark-pastel-purple: radial-gradient(
+    50% 50% at 50% 50%,
+    #d0a7ff 0%,
+    #9c6cd3 100%
+);
+
+$gradients-ufo-green: radial-gradient(
+    50% 50% at 50% 50%,
+    #61ffa1 0%,
+    #1fd669 100%
+);

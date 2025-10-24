@@ -7,8 +7,8 @@ const HomePage: React.FC = () => {
             <Head>
                 <title>Phoenix Inertia Template</title>
             </Head>
-            <div>
-                <h1>Home Page</h1>
+            <div className="home-page">
+                <h1>Phoenix Inertia Template</h1>
             </div>
         </>
     );

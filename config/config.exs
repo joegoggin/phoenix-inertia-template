@@ -43,6 +43,14 @@ config :esbuild,
     env: %{"NODE_PATH" => Path.expand("../deps", __DIR__)}
   ]
 
+# Dart Sass
+config :dart_sass,
+  version: "1.69.5",
+  default: [
+    args: ~w(--load-path=./css css/app.scss ../priv/static/assets/css/app.css),
+    cd: Path.expand("../assets", __DIR__)
+  ]
+
 # Configure tailwind (the version is required)
 config :tailwind,
   version: "4.1.7",
