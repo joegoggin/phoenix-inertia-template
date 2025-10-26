@@ -5,7 +5,7 @@ defmodule Mix.Tasks.Env do
   use Mix.Task
 
   @doc """
-    Runs the `mix env` task. 
+    Runs the `mix env` task
   """
   @impl Mix.Task
   def run(_args) do
