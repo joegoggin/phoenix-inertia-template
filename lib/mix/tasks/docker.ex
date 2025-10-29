@@ -17,7 +17,7 @@ defmodule Mix.Tasks.Docker do
         {_, 1} -> Mix.shell().error("\nError: failed to start Docker")
       end
 
-      Process.sleep(2000)
+      Process.sleep(3000)
     end
   end
 

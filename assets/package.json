@@ -1,12 +1,11 @@
 {
-  "dependencies": {
-    "@inertiajs/react": "^2.2.10",
-    "axios": "^1.13.1",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2"
-  }
+    "dependencies": {
+        "@inertiajs/react": "^2.2.10",
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^19.2.2",
+        "@types/react-dom": "^19.2.2"
+    }
 }
